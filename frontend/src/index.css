@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .ls_1 {
+    @apply tracking-[1px];
+  }
+  .ls_2 {
+    @apply tracking-[2px];
+  }
+  .b_1 {
+    @apply border-[1px] border-[#000000];
+  }
+  .b_red_1 {
+    @apply border-[1px] border-[#e64848];
+  }
+
+  .bb_1 {
+    @apply border-b-[1px] border-b-[#000000];
+  }
+
+  .br_1 {
+    @apply border-r-[1px] border-r-[#000000];
+  }
+
+  .bl_1 {
+    @apply border-l-[1px] border-l-[#000000];
+  }
+  .bt_1 {
+    @apply border-t-[1px] border-t-[#000000];
+  }
+  .flex_center {
+    @apply flex items-center justify-center;
+  }
+  .custon_btn {
+    @apply bg-slate-400 py-2 px-3 b_1 mr-1 rounded-md;
+  }
+}
